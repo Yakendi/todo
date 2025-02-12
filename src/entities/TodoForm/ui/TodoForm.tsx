@@ -12,7 +12,7 @@ interface TodoFormInterface {
 const TodoForm = ({value, onSubmit, onChange, isDisabled}: TodoFormInterface) => {
     return (
         <STodoForm id="form" onSubmit={onSubmit}>
-            <TaskInput value={value} onChange={onChange}/>
+            <TaskInput value={value} placeholder="What's the task today?" onChange={onChange} style={{width: "75%"}}/>
             <AddTaskButton isDisabled={isDisabled} title="Add Task"></AddTaskButton>
         </STodoForm>
     )

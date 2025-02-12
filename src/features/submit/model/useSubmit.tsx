@@ -12,7 +12,6 @@ const useSubmit = ({setTasks}: UseTaskProps) => {
         
         addTask(value.trim());
         handleOnSubmit(event);
-        console.log(value);
     };
 
     const addTask = (task: string) => {
