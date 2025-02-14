@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-const STodoTabsWrapper = styled.ul`
+const STodoFiltersWrapper = styled.ul`
     width: 100%;
     display: flex;
     justify-content: space-between;
 `
 
-export default STodoTabsWrapper;
+export default STodoFiltersWrapper;
